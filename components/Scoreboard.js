@@ -1,4 +1,7 @@
-const PLAYERS = [
+import React from 'react';
+import PropTypes from 'prop-types';
+
+const INITIAL_STATE = [
   {
     name: "Jim Hoskins",
     score: 32,
@@ -20,7 +23,7 @@ const PLAYERS = [
     id: 3
   },
 ];
-let nextId = PLAYERS.length + 1;
+let nextId = INITIAL_STATE.length + 1;
 
 class Stopwatch extends React.Component {
   constructor(props) {
@@ -119,10 +122,6 @@ class AddPlayerForm extends React.Component {
   }
 }
 
-AddPlayerForm.propTypes = {
-  onPlayerAdd: PropTypes.func.isRequired,
-}
-
 function Stats(props) {
   let totalPlayers = props.players.length;
   let totalPoints = props.players.reduce((total, player) => {return total + player.score}, 0)
@@ -199,11 +198,11 @@ Player.propTypes = {
   onRemove: PropTypes.func.isRequired,
 }
 
-class Application extends React.Component {
+class Scoreboard extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      players: this.props.initialPlayers,
+      players: INITIAL_STATE,
     }
     
   }
@@ -249,20 +248,14 @@ class Application extends React.Component {
       </div>
     );
   }
-  
 }
 
-Application.propTypes = {
+Scoreboard.propTypes = {
   title: PropTypes.string,
-  initialPlayers: PropTypes.arrayOf(PropTypes.shape({
-    name: PropTypes.string.isRequired,
-    score: PropTypes.number.isRequired,
-    id: PropTypes.number.isRequired
-  })).isRequired,
 }
 
-Application.defaultProps = {
+Scoreboard.defaultProps = {
   title: "Scoreboard",
 }
 
-ReactDOM.render(<Application initialPlayers={PLAYERS}/>, document.getElementById("container"));
+export default Scoreboard;

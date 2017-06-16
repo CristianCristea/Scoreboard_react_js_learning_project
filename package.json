@@ -1,0 +1,38 @@
+{
+  "name": "react_scoreboard",
+  "version": "1.0.0",
+  "description": "Create a scoreboard with following functionality:\r * should contain an initial group of players\r * can add new player\r * can delete player\r * show actual number of players\r * show the actual score\r * can increment or decrement the score of each player\r * show actual total of points\r * show a timer - only seconds\r   - can start timer\r   - can stop timer\r   - can continue timer after stop\r   - can reset time",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --optimize-minimize",
+    "start": "webpack-dev-server --port 8000 --inline --hot",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CristianCristea/Scoreboard_react_js_learning_project.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CristianCristea/Scoreboard_react_js_learning_project/issues"
+  },
+  "homepage": "https://github.com/CristianCristea/Scoreboard_react_js_learning_project#readme",
+  "dependencies": {
+    "prop-types": "^15.5.10",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.25.0",
+    "babel-loader": "^7.0.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "css-loader": "^0.28.4",
+    "react-hot-loader": "^1.3.1",
+    "style-loader": "^0.18.2",
+    "webpack": "^2.6.1",
+    "webpack-dev-server": "^2.4.5"
+  }
+}
