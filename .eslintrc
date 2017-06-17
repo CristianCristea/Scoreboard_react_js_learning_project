@@ -8,6 +8,11 @@
     "mocha": true
   },
   "rules": {
+    "quotes": [2, "single"],
+    "strict": [2, "never"],
+    "react/jsx-uses-react": 2,
+    "react/jsx-uses-react": 2,
+    "react/react-in-jsx-scope": 2,
     "valid-jsdoc": ["error", {
       "requireReturn": true,
       "requireReturnType": true,
