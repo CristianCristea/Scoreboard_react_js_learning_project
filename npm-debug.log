@@ -1,0 +1,51 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'start' ]
+2 info using npm@3.10.9
+3 info using node@v7.1.0
+4 verbose run-script [ 'prestart', 'start', 'poststart' ]
+5 info lifecycle react-redux-course@1.0.0~prestart: react-redux-course@1.0.0
+6 verbose lifecycle react-redux-course@1.0.0~prestart: unsafe-perm in lifecycle true
+7 verbose lifecycle react-redux-course@1.0.0~prestart: PATH: C:\Program Files\nodejs\node_modules\npm\bin\node-gyp-bin;C:\xampp\htdocs\side-projects-learning\scoreboard-redux-react\node_modules\.bin;D:\Web Development Programs\cmder\bin;D:\Web Development Programs\cmder\vendor\conemu-maximus5\ConEmu\Scripts;D:\Web Development Programs\cmder\vendor\conemu-maximus5;D:\Web Development Programs\cmder\vendor\conemu-maximus5\ConEmu;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;D:\Web Development Programs\Git\cmd;D:\Web Development Programs\Vagrant\bin;C:\Program Files\nodejs\;C:\Program Files (x86)\Skype\Phone\;%SystemRoot%\system32;%SystemRoot%;%SystemRoot%\System32\Wbem;%SYSTEMROOT%\System32\WindowsPowerShell\v1.0\;C:\Ruby23\bin;C:\Users\Cristian\AppData\Local\Microsoft\WindowsApps;C:\Users\Cristian\AppData\Local\atom\bin;"D:\Web Development Programs\Sublime Text 3";C:\Users\Cristian\AppData\Roaming\npm;%USERPROFILE%\AppData\Local\Microsoft\WindowsApps;;D:\Web Development Programs\Git\usr\bin;D:\Web Development Programs\Git\usr\share\vim\vim74;D:\Web Development Programs\cmder\
+8 verbose lifecycle react-redux-course@1.0.0~prestart: CWD: C:\xampp\htdocs\side-projects-learning\scoreboard-redux-react
+9 silly lifecycle react-redux-course@1.0.0~prestart: Args: [ '/d /s /c', 'npm run lint' ]
+10 silly lifecycle react-redux-course@1.0.0~prestart: Returned: code: 0  signal: null
+11 info lifecycle react-redux-course@1.0.0~start: react-redux-course@1.0.0
+12 verbose lifecycle react-redux-course@1.0.0~start: unsafe-perm in lifecycle true
+13 verbose lifecycle react-redux-course@1.0.0~start: PATH: C:\Program Files\nodejs\node_modules\npm\bin\node-gyp-bin;C:\xampp\htdocs\side-projects-learning\scoreboard-redux-react\node_modules\.bin;D:\Web Development Programs\cmder\bin;D:\Web Development Programs\cmder\vendor\conemu-maximus5\ConEmu\Scripts;D:\Web Development Programs\cmder\vendor\conemu-maximus5;D:\Web Development Programs\cmder\vendor\conemu-maximus5\ConEmu;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;D:\Web Development Programs\Git\cmd;D:\Web Development Programs\Vagrant\bin;C:\Program Files\nodejs\;C:\Program Files (x86)\Skype\Phone\;%SystemRoot%\system32;%SystemRoot%;%SystemRoot%\System32\Wbem;%SYSTEMROOT%\System32\WindowsPowerShell\v1.0\;C:\Ruby23\bin;C:\Users\Cristian\AppData\Local\Microsoft\WindowsApps;C:\Users\Cristian\AppData\Local\atom\bin;"D:\Web Development Programs\Sublime Text 3";C:\Users\Cristian\AppData\Roaming\npm;%USERPROFILE%\AppData\Local\Microsoft\WindowsApps;;D:\Web Development Programs\Git\usr\bin;D:\Web Development Programs\Git\usr\share\vim\vim74;D:\Web Development Programs\cmder\
+14 verbose lifecycle react-redux-course@1.0.0~start: CWD: C:\xampp\htdocs\side-projects-learning\scoreboard-redux-react
+15 silly lifecycle react-redux-course@1.0.0~start: Args: [ '/d /s /c', 'webpack-dev-server --port 8000 --inline --hot' ]
+16 silly lifecycle react-redux-course@1.0.0~start: Returned: code: 3221226505  signal: null
+17 info lifecycle react-redux-course@1.0.0~start: Failed to exec start script
+18 verbose stack Error: react-redux-course@1.0.0 start: `webpack-dev-server --port 8000 --inline --hot`
+18 verbose stack Exit status 3221226505
+18 verbose stack     at EventEmitter.<anonymous> (C:\Program Files\nodejs\node_modules\npm\lib\utils\lifecycle.js:255:16)
+18 verbose stack     at emitTwo (events.js:106:13)
+18 verbose stack     at EventEmitter.emit (events.js:191:7)
+18 verbose stack     at ChildProcess.<anonymous> (C:\Program Files\nodejs\node_modules\npm\lib\utils\spawn.js:40:14)
+18 verbose stack     at emitTwo (events.js:106:13)
+18 verbose stack     at ChildProcess.emit (events.js:191:7)
+18 verbose stack     at maybeClose (internal/child_process.js:885:16)
+18 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:226:5)
+19 verbose pkgid react-redux-course@1.0.0
+20 verbose cwd C:\xampp\htdocs\side-projects-learning\scoreboard-redux-react
+21 error Windows_NT 10.0.15063
+22 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "start"
+23 error node v7.1.0
+24 error npm  v3.10.9
+25 error code ELIFECYCLE
+26 error react-redux-course@1.0.0 start: `webpack-dev-server --port 8000 --inline --hot`
+26 error Exit status 3221226505
+27 error Failed at the react-redux-course@1.0.0 start script 'webpack-dev-server --port 8000 --inline --hot'.
+27 error Make sure you have the latest version of node.js and npm installed.
+27 error If you do, this is most likely a problem with the react-redux-course package,
+27 error not with npm itself.
+27 error Tell the author that this fails on your system:
+27 error     webpack-dev-server --port 8000 --inline --hot
+27 error You can get information on how to open an issue for this project with:
+27 error     npm bugs react-redux-course
+27 error Or if that isn't available, you can get their info via:
+27 error     npm owner ls react-redux-course
+27 error There is likely additional logging output above.
+28 verbose exit [ 1, true ]
