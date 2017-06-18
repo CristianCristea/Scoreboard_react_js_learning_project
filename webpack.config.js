@@ -1,16 +1,19 @@
 module.exports = {
   devtool: 'inline-sourcemap',
-  entry: "./app.js",
+  entry: './index.js',
   output: {
-    filename: "bundle.js"
+    filename: 'bundle.js'
   },
-
+  
   module: {
     loaders: [
       {
         test: /\.js$/,
         exclude: /node_modules/,
-        loaders: ['react-hot-loader', 'babel-loader']
+        loaders: [
+          'react-hot',
+          'babel'
+        ]
       }
     ]
   }
